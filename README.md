@@ -1,2 +1,2 @@
-# mypbjam.github.io
+# mypbjam
 mypbjam website
