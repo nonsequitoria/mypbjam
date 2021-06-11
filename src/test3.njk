@@ -1,0 +1,34 @@
+---
+permalink: "{{ page.fileSlug }}.html"
+layout: layouts/base.njk
+---
+
+<nav class="flex items-center pt-10 md:pt-10" 
+     style="background-image: linear-gradient(180deg, #F7F3E9, #E1E8DE);">
+    <div class="flex-1 px-5 text-right border-red-500">
+        <span class="font-serif text-2xl md:text-3xl mx-3">Jennifer Harris</span>
+    </div>
+
+    <div x-data="{ hipbjam: false }" class="flex-shrink-0 border-blue-500">
+        <img @mouseover="hipbjam = true" @mouseleave="hipbjam = false"  class="transform scale-75" src="/img/pbjam.png"/>
+        <div class="relative" x-cloak x-show="hipbjam" 
+        x-transition:enter="transition ease-out duration-1000"
+        x-transition:enter-start="opacity-0 transform scale-90" 
+        x-transition:enter-end="opacity-100 transform scale-100" 
+        x-transition:leave="transition ease-in duration-1000" 
+        >
+        <div class="absolute top-0 -mt-1 z-10 bg-white p-2 rounded-lg shadow-lg text-xs text-center ">
+        pb and jam!
+      </div>
+    </div>
+    </div>
+
+    <div class="flex-1 border-green-500 px-5">
+        <div class="">
+            <a href="#" class="inline-block mx-3 md:mr-10">About</a>
+            <a href="#" class="inline-block mx-3 md:mr-10">Books</a>
+            <a href="#" class="inline-block mx-3 ">Resources</a>
+        </div>
+    </div>
+</nav>
+
