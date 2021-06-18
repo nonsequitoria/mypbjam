@@ -3,14 +3,56 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <meta name="description" content="The HTML5 Herald">
+        <meta name="description" content="Jennifer Harris is a children&#39;s book author">
         <meta name="author" content="SitePoint">
 
         <link rel="stylesheet" href="/assets/main.css"/>
     </head>
-    <body>
+    <body class="min-h-screen" style="background-image: linear-gradient(180deg, #F7F3E9, #E1E8DE);">
 
         
+
+            <nav class="flex items-center py-10 mb-10 md:pt-10 border-b-2 border-white" >
+                <div class="flex-1 px-5 text-right border-red-500">
+                    <a class="font-serif text-2xl md:text-3xl mx-3 cursor:hand" href="/">Jennifer Harris</a>
+                </div>
+
+                <div x-data="{ hipbjam: false }" class="flex-shrink-0 border-blue-500">
+                    <img @mouseover="hipbjam = true" @mouseleave="hipbjam = false"  class="transform scale-75" src="/img/pbjam.png"/>
+                    
+                </div>
+
+                <div class="flex-1 border-green-500 px-5">
+                    <div class="block md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+                    </div>
+                    <div class="hidden md:block">
+                        
+
+                            <a href="/" 
+                               class="inline-block mx-3 md:mr-10 hover:underline 
+                               "
+                               >About</a>
+
+                        
+
+                            <a href="/books" 
+                               class="inline-block mx-3 md:mr-10 hover:underline 
+                               "
+                               >Books</a>
+
+                        
+                    </div>
+                </div>
+
+            </nav>
+
+        
+
+        
+            
 <div class="m-10" x-data="{ isOpen : true }">
 
 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded md:hidden" @click="isOpen = !isOpen" @click.away="isOpen = false" >toggle</button>
@@ -18,7 +60,30 @@
 <h1 class="my-10 md:flex" :class="{ 'hidden' : !isOpen}">test2</h1>
 
 </div>
-     
+        
+
+        
+
+            <div class="grid md:grid-cols-3 gap-3 mt-10 p-10 text-gray-400 divide-x divide-gray-400" style="background: #003606; min-height: 200px;">
+
+                <div class="p-5 flex items-center">
+                
+                <svg class="h-5 w-5 fill-current m-3" xmlns="http://www.w3.org/2000/svg" width="260" height="220" viewBox="0 0 260 220">
+                    <path d="M5 187c100 62 227-7 225-130 10-7 19-16 26-27-10 5-20 8-31 9 11.4-7 20-17 24-29-10 6-20 10-33 13-43-41.3-100 3-88 47-43-2-80-23-106-54C10 40 15 71 39 85 30 84 20 82 15 78c0 26 18 46 41 51-8 2-15 3-23 1 6 20 26 36 48 36-20 16-47 24-76 21z"/>
+                </svg>
+                <a href="https://twitter.com/mypbjam">@mypbjam</a>
+                </div>
+                <div class="p-5">
+                Instagram
+                </div>
+                <div class="p-5">
+                Other
+                </div>
+
+            </div>
+
+        
+
         <script src="/assets/main.js"></script>
     </body>
 </html>
