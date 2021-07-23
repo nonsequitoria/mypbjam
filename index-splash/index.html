@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jennifer Harris</title>
+        <meta name="description" content="Jennifer Harris is a children&#39;s book author">
+
+        <link rel="stylesheet" href="/assets/main.css"/>
+    </head>
+
+    <body class="min-h-screen" 
+    style="background: #E1E8DE;
+           background-image: linear-gradient(180deg, #F7F3E9 7.89%, #E1E8DE 24.98%);
+           background-repeat: no-repeat;
+           ">
+
+        
+            
+<main class="flex h-screen justify-center items-center">
+
+    <div class="flex-row mb-20 items-center ">
+
+    <div x-data="{ hipbjam: false }" class="">
+
+        <div class="relative z-0" x-cloak x-show="hipbjam" 
+                x-transition:enter="transition ease-out duration-500"
+                x-transition:enter-start="opacity-0 transform scale-0" 
+                x-transition:enter-end="opacity-100 transform scale-80" 
+
+                x-transition:leave="transition ease-in duration-500"   
+                x-transition:leave-start="opacity-100 transform scale-80" 
+                x-transition:leave-end="opacity-0 transform scale-0"                               
+                >
+            <div class="absolute bottom-5  w-20 bg-white p-2 rounded-lg shadow-lg text-xs text-center text-gray-500">
+                mypbjam!
+            </div>
+        </div>
+        <img @mouseover="hipbjam = true" @mouseleave="hipbjam = false"  
+        class="mx-auto transform scale-90 hover:scale-95 z-10" 
+        src="/img/pbjam.png"/>
+
+    </div>
+
+    <div class="pt-3 flex items-center text-gray-700 text-sm border ">
+        <svg class="h-5 w-5 fill-current m-1" xmlns="http://www.w3.org/2000/svg" width="260" height="220" viewBox="0 0 260 220">
+            <path d="M5 187c100 62 227-7 225-130 10-7 19-16 26-27-10 5-20 8-31 9 11.4-7 20-17 24-29-10 6-20 10-33 13-43-41.3-100 3-88 47-43-2-80-23-106-54C10 40 15 71 39 85 30 84 20 82 15 78c0 26 18 46 41 51-8 2-15 3-23 1 6 20 26 36 48 36-20 16-47 24-76 21z"/>
+        </svg>
+        <a class="hover:underline hover:text-blue-500" href="https://twitter.com/mypbjam">@mypbjam</a>
+    </div>
+
+    <div class="mx-auto flex items-center text-gray-700 text-sm border ">
+        <svg class="h-5 w-5 fill-current m-1" xmlns="http://www.w3.org/2000/svg" width="260" height="220" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg>
+        <a class="mx-auto hover:underline hover:text-blue-500" href="https://www.instagram.com/mypbjam/">mypbjam</a>
+    </div>   
+
+
+    
+    </div>
+
+</main>
+        
+
+        <script src="/assets/main.js"></script>
+    </body>
+</html>

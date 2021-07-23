@@ -586,6 +586,41 @@ video {
   }
 }
 
+body {
+  color: #48381A;
+}
+
+h1 {
+  font-family: Noto Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Noto Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-family: Noto Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 0.75rem;
+  margin-top: 2.5rem;
+  font-style: italic;
+}
+
+p {
+  font-family: Noto Serif, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin-bottom: 1.25rem;
+}
+
+/* a {
+        @apply text-blue-900 hover:text-blue-500 hover:underline;
+    } */
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -31830,10 +31865,6 @@ video {
 
 .backdrop-sepia {
   --tw-backdrop-sepia: sepia(100%);
-}
-
-body {
-  background: #E1E8DE;
 }
 
 @media (min-width: 640px) {
