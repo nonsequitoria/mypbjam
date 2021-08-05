@@ -9,7 +9,7 @@
 
         <div class="flex-1 text-right border-red-500">
         {% if section != "Home" %}
-            <a class="font-serif font-thin text-4xl lg:text-3xl cursor:hand" 
+            <a class="font-serif font-thin text-2xl md:text-3xl cursor:hand" 
                 href="/"
                 >Jennifer Harris</a>
         {% endif %}
@@ -20,7 +20,7 @@
                 x-transition:enter-end="opacity-100 transform scale-100"  #}
 
         <div x-data="{ hipbjam: false }" class="border-blue-500 mx-5 md:mx-10">
-            <img class="transform scale-150 lg:scale-90" src="/img/pbjam.png"
+            <img class="transform scale-110 lg:scale-90" src="/img/pbjam.png"
                 @mouseover="hipbjam = true" @mouseleave="hipbjam = false" />
             <div class="relative" x-cloak x-show="hipbjam" 
 
