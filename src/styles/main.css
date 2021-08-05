@@ -24,11 +24,11 @@
     }    
 
     p {
-        @apply mb-5 font-serif;
+        @apply mb-5 font-serif text-lg lg:text-base;
     }
 
-    /* a {
+    p > a {
         @apply text-blue-900 hover:text-blue-500 hover:underline;
-    } */
+    } 
 
 }
