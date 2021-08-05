@@ -7,10 +7,10 @@
 
         <link rel="stylesheet" href="/assets/main.css"/>
     </head>
-
+           
     <body class="min-h-screen" 
-    style="background: #E1E8DE;
-           background-image: linear-gradient(180deg, #F7F3E9 7.89%, #E1E8DE 24.98%);
+    style="background: #FAFAFA;
+           background-image: linear-gradient(180deg, #F7F3E9 10%, #FAFAFA 30%);
            background-repeat: no-repeat;
            ">
 
@@ -28,15 +28,18 @@
     <div class="flex items-center flex-wrap py-10 md:pt-10">
 
         <div class="flex-1 text-right border-red-500">
-            <a class="font-serif font-thin text-2xl md:text-3xl cursor:hand" 
+        
+            <a class="font-serif font-thin text-4xl lg:text-3xl cursor:hand" 
                 href="/"
                 >Jennifer Harris</a>
+        
         </div>
 
                         
 
         <div x-data="{ hipbjam: false }" class="border-blue-500 mx-5 md:mx-10">
-            <img @mouseover="hipbjam = true" @mouseleave="hipbjam = false"  class="transform scale-75" src="/img/pbjam.png"/>
+            <img class="transform scale-150 lg:scale-90" src="/img/pbjam.png"
+                @mouseover="hipbjam = true" @mouseleave="hipbjam = false" />
             <div class="relative" x-cloak x-show="hipbjam" 
 
                 x-transition:leave="transition ease-out duration-5000" 
@@ -51,6 +54,13 @@
         <div class="flex-1 text-sm mr-10 md:p-0">
             
             <div class="flex flex-row gap-5 md:gap-10">
+                
+
+                    <a href="/about" 
+                               class="uppercase font-thin hover:underline 
+                               "
+                               >About</a>
+
                 
             </div>
 
@@ -73,7 +83,7 @@
         <div class="w-11/12 max-w-3xl
                     md:w-4/5
                     ">
-            <div class="grid md:grid-cols-5 gap-5 p-5">
+            <div class="grid lg:grid-cols-5 gap-5 p-5">
 
                 
 

@@ -614,12 +614,28 @@ h3 {
 
 p {
   font-family: Noto Serif, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   margin-bottom: 1.25rem;
 }
 
-/* a {
-        @apply text-blue-900 hover:text-blue-500 hover:underline;
-    } */
+@media (min-width: 1024px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+p > a {
+  --tw-text-opacity: 1;
+  color: rgba(30, 58, 138, var(--tw-text-opacity));
+}
+
+p > a:hover {
+  --tw-text-opacity: 1;
+  color: rgba(59, 130, 246, var(--tw-text-opacity));
+  text-decoration: underline;
+}
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
