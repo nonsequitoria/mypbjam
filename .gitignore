@@ -3,3 +3,4 @@ node_modules/
 .DS_Store
 .vscode/
 *.code-workspace
+npm-debug.log
