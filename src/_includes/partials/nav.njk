@@ -1,0 +1,69 @@
+  {# { "name": "Boo", "url": "/"},
+  { "name": "Books", "url": "/books"},
+  { "name": "Resources", "url": "/resources"} #}
+
+<nav class="mb-10" style="color: #684709">
+
+    <div class="flex items-center flex-wrap py-10 md:pt-10">
+     {# x-data="{ isOpen: false }" 
+        @keydown.escape="isOpen = false"  
+        @click.away="isOpen = false"  #}
+
+        {# Jennifer Harris #}
+        <div class="flex-1 text-right border-red-500">
+        {% if section != "Home" %}
+            <a class="font-serif font-thin text-2xl md:text-3xl cursor:hand" 
+                href="/"
+                >Jennifer Harris</a>
+        {% endif %}
+        </div>
+
+        {# PB and Jam Logo #}
+        <div x-data="{ hipbjam: false }" class="border-blue-500 mx-5 md:mx-10">
+             <a class="font-serif font-thin text-2xl md:text-3xl cursor:hand" 
+                href="/"
+                >
+            <img class="transform scale-110 lg:scale-90" src="/img/pbjam.png"
+                @mouseover="hipbjam = true" @mouseleave="hipbjam = false" />
+                </a>
+            <div class="relative" x-cloak x-show="hipbjam" 
+                x-transition:leave="transition ease-out duration-5000" 
+                x-transition:leave-end="opacity-20"
+                >
+                <div class="absolute top-0 mt-1 z-10 bg-white p-2 rounded-lg shadow-lg text-xs text-center ">
+                {{ [ "pb and jam!", "jam and pb!", "hi there!", "reading is fun!" ] | random }} 
+                </div>
+                </div>
+        </div>
+
+        {# Toggle button (hidden on large screens) #}
+        {# <button type="button" aria-label="Menu"
+            class="md:hidden ml-auto block px-2" 
+            @click="isOpen = !isOpen" 
+            :class="{ 'transition transform-180': isOpen }" >
+            <svg class="h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+                <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+            </svg>
+        </button> #}
+
+
+        <div class="flex-1 text-sm mr-10 md:p-0">
+            <div class="flex flex-row gap-5 md:gap-10">
+                {% for item in sections %}
+
+                    <a href="{{ item.url }}" 
+                               class="uppercase font-thin hover:underline 
+                               {{ "text-red-600 font-bold" if (item.name == section) }}"
+                               >{{ item.name }}</a>
+
+                {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="border-b mx-10" style="border-color: #FEFAF0;"></div>
+
+</nav>
