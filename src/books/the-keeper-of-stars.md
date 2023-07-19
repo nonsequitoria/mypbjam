@@ -6,7 +6,7 @@ layout: base.njk
 
 <div class="max-w-prose">
 
-<img class="mr-5 mb-5 " src="/img/the-keeper-of-stars-lowres-preview.png"/>
+<img class="mr-5 mb-5 md:max-w-sm" src="/img/the-keeper-of-stars-cover.jpg"/>
 
 <p class="italic font-bold">The Keeper of Stars</p>
 
