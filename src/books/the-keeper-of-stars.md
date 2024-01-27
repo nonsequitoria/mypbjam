@@ -22,6 +22,6 @@ layout: base.njk
 
 <p class="text-base font-bold">Coming Spring 2024</p>
 
-<p class="text-base">🛒 Find it at your <a href="https://bookshop.org/p/books/the-keeper-of-stars-jennifer-harris/20209363?ean=9781771475686">favourite local bookstore</a>, or order from <a href="https://www.indigo.ca/en-ca/the-keeper-of-stars/9781771475686.html">Indigo</a>, <a href="https://www.amazon.com/-/zh_TW/Jennifer-Harris/dp/1771475684">Amazon</a>, <a href="https://www.barnesandnoble.com/w/the-keeper-of-stars-jennifer-harris/1143715087">Barnes &amp; Noble</a>, and other online booksellers.</p>
+<p class="text-base">🛒 Find it at your <a href="https://bookshop.org/p/books/the-keeper-of-stars-jennifer-harris/20209363?ean=9781771475686">favourite local bookstore</a>, or order from <a href="https://www.indigo.ca/en-ca/the-keeper-of-stars/9781771475686.html">Indigo</a>, <a href="https://www.amazon.com/Keeper-Stars-Jennifer-Harris/dp/1771475684">Amazon</a>, <a href="https://www.barnesandnoble.com/w/the-keeper-of-stars-jennifer-harris/1143715087">Barnes &amp; Noble</a>, and other online booksellers.</p>
 
 </div>
