@@ -30,8 +30,6 @@ The Witching Hour is a spare, slyly funny and deeply familiar slice-of-life stor
 </br> - <i>Hepzibah Newton, Advice and Spells for the New Witch Parent</i></p>
 
 
-🛒 Find it at your favourite local bookstore, or order from Indigo, Amazon, Barnes & Noble, and other online booksellers.
-
 <p class="text-base">🛒 Find it at your <a href="https://bookshop.org/p/books/the-witching-hour-jennifer-hariss/094dc2370eca56df?ean=9781774884409">favourite local bookstore</a>, or order from <a href="https://www.indigo.ca/en-ca/the-witching-hour/9781774884409.html">Indigo</a>, <a href="https://www.amazon.com/Witching-Hour-Jennifer-Harris/dp/1774884402">Amazon</a>, <a href="https://www.barnesandnoble.com/w/the-witching-hour-jennifer-harris/1146412590">Barnes &amp; Noble</a>, and other online booksellers.</p>
 
 
