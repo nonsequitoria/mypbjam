@@ -20,10 +20,14 @@ layout: base.njk
 
 <quote class="font-bold px-2">🏆 Recommended Book, *Canadian Children’s Booknews*, 2024</quote>
 
+<p>“Jennifer Harris’ prose lovingly portrays a child’s imaginative journey and the wholesome fun involved in kindly helping out one’s friends.”<br /> ― <i><a href="https://www.cmreviews.ca/node/4123">CM: Canadian Review of Materials</a></i></p>
+ 
+
+<p>“A gentle bedtime story touching on parental absenteeism with a sweet message that things exist, even when you can’t see them.”<br /> ― <i><a href="https://www.slj.com/review/the-keeper-of-stars">School Library Journal</a></i></p>
+
 <p>“the fantasy of floating out one’s window, soaring on a comet, and hanging out with a big guy in the sky is enthralling, sustained by the imaginative illustrations. Amid the colorful simplified characters, the bear is majestic.” <br /> ― <i><a href="https://www.kirkusreviews.com/book-reviews/jennifer-harris/the-keeper-of-stars/">Kirkus Reviews</a></i></p>
 
 <p>“The snug story is as comforting as it is captivating... The fanciful illustrations are transporting, with star-swept vistas and cozy bedrooms receiving equally detailed treatment, and the sprightly stars’ amusing antics are a joy to behold. A sparkling bedtime story that will set the stage for sweet dreams.”<br/> ― <i><a href="https://www.booklistonline.com/">Booklist</a></i></p>
-
 
 <p>“This gentle bedtime story is a reminder to find the light in the darkness, as Milo knows "the stars are always there . . . even when you can't see them."”<br/> ― <i><a href="https://www.booklistonline.com/">Bulletin of the Center for Children's Books</a></i></p> 
 

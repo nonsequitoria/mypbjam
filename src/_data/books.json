@@ -1,17 +1,23 @@
 [
-{ 
-   "title": "She Stitched the Stars",  
-   "pub": "(Albert Whitman 2021)", 
-   "path": "she-stitched-the-stars"
-},
-{ 
-   "title": "When You Were New",  
-   "pub": "(HarperCollins 2023)", 
-   "path": "when-you-were-new" 
-},
-{ 
-   "title": "The Keeper of Stars",  
-   "pub": "(OwlKids 2024)", 
-   "path": "the-keeper-of-stars"
-}
+  {
+    "title": "The Witching Hour",
+    "pub": "(Tundra / Penguin Random House 2025)",
+    "path": "the-witching-hour"
+  },
+  {
+    "title": "The Keeper of Stars",
+    "pub": "(OwlKids 2024)",
+    "path": "the-keeper-of-stars"
+  },
+  {
+    "title": "When You Were New",
+    "pub": "(HarperCollins 2023)",
+    "path": "when-you-were-new"
+  },
+
+  {
+    "title": "She Stitched the Stars",
+    "pub": "(Albert Whitman 2021)",
+    "path": "she-stitched-the-stars"
+  }
 ]
