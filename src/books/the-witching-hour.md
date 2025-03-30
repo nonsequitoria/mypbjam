@@ -20,6 +20,10 @@ Turns out, it's pretty much the same, except sometimes the toys levitate and the
 
 The Witching Hour is a spare, slyly funny and deeply familiar slice-of-life story featuring a fussy little witch and their increasingly desperate family.
 
+<quote class="font-bold px-2">🏆 <a href="https://tellingtales.org/">Telling Tales</a> 2025 Reading List selection</quote>
+
+<p>“A bewitching bedtime story sure to charm the whole family.”<br /> ― <i><a href="https://www.kirkusreviews.com/book-reviews/jennifer-harris/the-witching-hour-2/">Kirkus Reviews</a></i></p>
+
 <p>“A spot-on rendering of the magical lengths families will go to soothe a cranky witchling.”
 </br> - <i>Brunhilda Stormweary, The Witchling Sleep Solution</i></p>
 
