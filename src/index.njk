@@ -4,33 +4,48 @@ section: Home
 layout: base.njk
 ---
 
-
 <div class="col-span-3 text-xl text-center">
     <p class="mb-1">Hi, I'm 
     <span style="color: #684709" class="font-thin whitespace-nowrap text-3xl">Jennifer Harris.</span>
-    <p class="">I'm a writer of picture books, and a reader of everything.</p>
-</div>
+        <p class="">I'm a writer of picture books, and a reader of everything.</p>
+    </div>
 
-<div class="grid md:grid-cols-3 gap-5">
-{% for b in books %}
-{% if b.path  %}
-<a href="books/{{ b.path }}">
-{% endif %}
-<div class="pb-2 {{ "hover:bg-white" if b.path }}  ">
-<div class="flex flex-col md:h-80">
-<img class="mt-auto px-6 py-4" src="/img/{{ "forthcoming" if not b.path else b.path }}-cover.jpg"/>
-</div>
-<p class="text-center"><span class="italic font-bold">{{ b.title }}</span><br/>{{ b.pub }}</p>
-</div>
-{% if b.path  %}
-</a>
-{% endif %}
+    <div class="grid md:grid-cols-3 gap-5">
+        {% for b in books.published %}
+            {% if b.path %}
+                <a href="books/{{ b.path }}">
+                {% endif %}
+                <div class="pb-2 {{ "hover:bg-white" if b.path }}  ">
+                    <div class="flex flex-col md:h-80">
+                        <img class="mt-auto px-6 py-4" src="/img/{{ "forthcoming" if not b.path else b.path }}-cover.jpg"/>
+                    </div>
+                    <p class="text-center">
+                        <span class="italic font-bold">{{ b.title }}</span><br/>{{ b.pub }}</p>
+                </div>
+                {% if b.path %}
+                </a>
+            {% endif %}
 
-{% endfor %}
-</div>
+        {% endfor %}
+    </div>
 
+    <h1 style="color: #684709" class="font-thin whitespace-nowrap text-xl font-serif normal-case">Forthcoming</h1>
 
+    <div class="grid md:grid-cols-3 gap-5">
+        {% for b in books.forthcoming %}
+            {% if b.path %}
+                <a href="books/{{ b.path }}">
+                {% endif %}
+                <div class="pb-2 {{ "hover:bg-white" if b.path }}  ">
+                    <div class="flex flex-col md:h-80">
+                        <img class="mt-auto px-6 py-4" src="/img/{{ "forthcoming" if not b.path else b.path }}-cover.jpg"/>
+                    </div>
+                    <p class="text-center">
+                        <span class="italic font-bold">{{ b.title }}</span><br/>{{ b.pub }}</p>
+                </div>
+                {% if b.path %}
+                </a>
+            {% endif %}
 
-
-
-
+        {% endfor %}
+    </div>
