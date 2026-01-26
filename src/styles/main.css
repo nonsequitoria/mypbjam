@@ -2,33 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @layer components {
+  body {
+    color: #48381a;
+  }
 
-    body {
-        color: #48381A;
-    }
+  h1 {
+    @apply uppercase font-bold mt-10 mb-3 font-sans;
+  }
 
-    h1 {
-        @apply uppercase font-bold mt-10 mb-3 font-sans;
-    }
+  h2 {
+    @apply font-bold mt-10 mb-3 font-sans;
+  }
 
-    h2 {
-        @apply font-bold mt-10 mb-3 font-sans;
-    }
+  h3 {
+    @apply mt-10 mb-3 font-sans italic;
+  }
 
-    h3 {
-        @apply mt-10 mb-3 font-sans italic;
-    }    
+  p {
+    @apply mb-5 font-serif text-lg lg:text-base;
+  }
 
-    p {
-        @apply mb-5 font-serif text-lg lg:text-base;
-    }
-
-    p > a {
-        @apply text-blue-900 hover:text-blue-500 hover:underline;
-    } 
-
+  p a {
+    @apply text-blue-900 hover:text-blue-500 hover:underline;
+  }
 }
