@@ -606,7 +606,7 @@ video {
 }
 
 body {
-  color: #48381A;
+  color: #48381a;
 }
 
 h1 {
@@ -645,12 +645,12 @@ p {
   }
 }
 
-p > a {
+p a {
   --tw-text-opacity: 1;
   color: rgba(30, 58, 138, var(--tw-text-opacity));
 }
 
-p > a:hover {
+p a:hover {
   --tw-text-opacity: 1;
   color: rgba(59, 130, 246, var(--tw-text-opacity));
   text-decoration: underline;
@@ -182139,3 +182139,4 @@ p > a:hover {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
