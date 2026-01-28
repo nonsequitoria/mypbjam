@@ -14,6 +14,8 @@ layout: base.njk
 
 In the witching hour between dinner and bedtime, anything can happen: laughter, tears, fun screaming, not-fun screaming . . . parents, siblings, pets and neighbors are all familiar with this dreaded time of day. What happens when that cranky baby is part of a family of witches? Turns out, it's pretty much the same, except sometimes the toys levitate and the soothing songs sound a little different ... The Witching Hour is a spare, slyly funny and deeply familiar slice-of-life story featuring a fussy little witch and their increasingly desperate family.
 
+<quote class="font-bold px-2">🏆 <a href="https://glbtrt.ala.org/rainbowbooks/archives/1460/">American Library Association 2026 selection, “Rainbow Book List”</a></quote>
+
 <quote class="font-bold px-2">🏆 <a href="https://tellingtales.org/">Telling Tales</a> 2025 Reading List selection</quote>
 
 <p>“Jennifer Harris and Adelina Lirius have captured the [witching hour] phenomenon so perfectly in their new picture book that you and your children will be under their spell.”<br /> — <i><a href="https://imaginaryelevators.blog/2025/05/28/bewitched-bothered-and-bewildered/">Imaginary Elevators</a></i></p>
